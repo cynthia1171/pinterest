@@ -1,0 +1,274 @@
+body{
+	font-family:'Source Sans Pro',sans-serif;
+}
+
+nav{
+	background-color: #fff;
+	margin-top: -37px;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	display: block;
+}
+
+#top-menu{
+	position: relative;
+	padding-top: 40px;
+}
+
+li, span, p{
+	display: inline-block;
+}
+
+#search-box{
+	display: inline-block;
+	background-color:#EFEFEF;
+	border-radius:5px;
+	margin:0 16px;
+	width:75%;
+	height: 50px;
+	padding:00px;
+}
+
+#pins, #icons, #logo{
+	display: inline-block;
+	position: relative;
+}
+
+#icons{
+    width: 15%;
+    height: 50px;
+	padding:00px;
+    display: inline-block;
+    top: -17px;
+}
+
+hr{
+	position: relative;
+	top: -25px;
+}
+#search{
+	position: absolute;
+	display: inline-block;
+	width: 64%;
+	margin-top: 14px;
+}
+
+#pins{
+	float: right;
+}
+
+
+input{
+	width:78%;
+	border:none;
+	line-height:20px;
+	font-size:16px;
+	background-color:transparent;
+	padding-left: 2%;
+	position: relative;
+}
+
+#pins p{
+	padding-right: 49px;
+}
+
+/*icono pinterest*/
+.icon-brand:before {
+	content: "\e901";
+	color: #bd081c;
+	font-size: 50px;
+}
+
+/*icono buscador*/
+.icon-search:before {
+	float: left;
+	content: "\e986";
+	padding-left: 37px;
+	line-height: 7px;
+}
+
+/*icono close*/
+.icon-close:before {
+	content: "\e902";
+	padding-right: 10px;
+}
+
+/*icono chevron*/
+.icon-chevron-down:before {
+	content: "\e905";
+	padding-right: 45px;
+	padding-left: 17px;
+    padding-bottom: 12px;
+}
+
+/*icono user*/
+.icon-user:before {
+	content: "\e904";
+	color: #b5b5b5;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+/*icono rayitas*/
+.icon-three-bars:before {
+	content: "\e900";
+	color: #b5b5b5;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+/*icono comentario*/
+.icon-commenting:before {
+	content: "\e903";
+	color: #b5b5b5;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.boton{
+	display: inline-block;
+	background-color:rgba(194,149,110,.5);
+	color:#fff;
+	padding:7px 38px;
+	font-weight:700;
+	border-radius:6px
+}
+
+.boton1{
+	background-color: #433737;
+	cursor: pointer;
+}
+
+.boton2{
+	background-color: #966D6D;
+	cursor: pointer;
+}
+
+.boton3{
+	background-image: url(img/3.jpg);
+	cursor: pointer;
+}
+
+.boton4{
+	background-image: url(img/4.jpg);
+	cursor: pointer;
+}
+
+.boton5{
+	background-image: url(img/5.jpg);
+	cursor: pointer;
+}
+
+.boton6{
+	background-image: url(img/6.jpg);
+	cursor: pointer;
+}
+
+.boton7{
+	background-image: url(img/7.jpg);
+	cursor: pointer;
+}
+
+.boton8{
+	background-image: url(img/8.jpg);
+	cursor: pointer;
+}
+
+.boton9{
+	background-image: url(img/9.jpg);
+	cursor: pointer;
+}
+
+main{
+	padding-top: 237px;
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagenes{
+	width: 282px;
+	display: block;
+	padding-right: 26px;
+}
+
+#primera, #segunda, #tercera, #cuarta{
+	float: left;
+}
+
+img{
+	width: 282px;
+	border-radius: 20px;
+}
+
+.icon-thumb-tack:before {
+  content: "\e908";
+}
+
+.icon-check:before {
+  content: "\e907";
+}
+
+.text{
+	display: inline-block;
+	float: left;
+	width: 70%;
+}
+
+.likes{
+	display: inline-block;
+	float: right;
+	padding-top: 25px;
+	font-size: 10px;
+	color: #b5b5b5;
+	font-weight: 400;
+	width: 30%;
+}
+
+.text span{
+  	display: inline-block;
+    width: 100%;
+    height: 44px;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user{
+	width: 100%;
+	margin-top: 140px;
+    font-size: 15px;
+}
+
+.user .circle{
+	width: 30px;
+    height: 30px;
+    background-color: #d597a1;
+    border-radius: 50px;
+    margin-right: 3px;
+    margin-top: -5px;
+    text-align: center;
+    float: left;
+}
+
+.user .circle span{
+	color: #fff;
+    font-weight: 700;
+    position: relative;
+    top: 6px;
+}
+
+.user .name-user{
+	font-weight: 700;
+	float: left;
+}
+
+.user .hashtag{
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	margin-left: -110px;
+}
